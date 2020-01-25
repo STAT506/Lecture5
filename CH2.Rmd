@@ -1,0 +1,39 @@
+---
+title: "Lecture 4: Gelman Hill Ch 2"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(show.signif.stars = FALSE)
+library(tidyverse) 
+```
+
+
+## Statistical Inference
+
+Statistical inference is used to learn from incomplete or imperfect data.
+
+\vfill
+
+This class sets up regression models using a measurement-error philosophy
+$$y = \beta_0 + \beta_1 x + \epsilon,$$
+where the errors are considered to be a random sample from a probability distribution, (e.g. $\epsilon \sim N(0,\sigma^2)$).
+
+\vfill
+
+
+\vfill
+
+### Confidence Intervals
+
+
+
+\vfill
+
+\vfill
+
+Later on we will see how to use simulation for more confidence intervals in more complicated scenarios.
+
+\vfill
